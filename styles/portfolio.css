@@ -8,11 +8,25 @@
 }
 
 /* nav styles */
+
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    background-position: center left, bottom right;
+}
+
+.heading{
+    padding-top: 40px;
+}
+
 .nav-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 200px;
+  margin: 0px 200px;
+  margin-bottom: 60px;
+  
 }
 
 .nav-title h2 {
@@ -46,6 +60,10 @@
     color: #474747;
 }
 
+.dark-3{
+    color: #757575;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -55,4 +73,45 @@
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.btn-secondary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    background-color: white;
+    padding: 18px 25px;
+    border: 2px solid #FD6E0A;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 200px;
+    
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-content h4{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
