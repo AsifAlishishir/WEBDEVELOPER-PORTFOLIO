@@ -203,3 +203,35 @@ main{
 .skill-description{
    line-height: 28px;
 }
+
+/* resume section styles */
+.resume{
+    margin-bottom: 130px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-description{
+    margin-bottom: 30px;
+}
+
+.resume-item hr{
+    margin-bottom: 30px;
+    border: 1px solid #D1D1D1;
+}
