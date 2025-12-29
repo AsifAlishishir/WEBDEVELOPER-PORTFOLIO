@@ -374,4 +374,14 @@ textarea {
         line-height: 25px;
         text-align: center;
     }
+
+    /* WHAT SECTION STYLES */
+    .what-content{
+        padding: 20px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+        margin: 0 15px;
+    }
 }
