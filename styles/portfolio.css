@@ -267,7 +267,7 @@ footer {
 }
 
 .message-container {
-  width: 460px;
+  width: 50%;
 }
 
 .message-container input,
@@ -278,6 +278,7 @@ textarea {
   width: 100%;
   border: none;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 .hide {
@@ -399,5 +400,28 @@ textarea {
 
   .resume-container {
     flex-direction: column;
+  }
+
+
+  /* FOOTER STYLES */
+  footer{
+    padding: 50px 15px;
+  }
+  .footer-container{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .connect-container {
+    width: 100%;
+  }
+
+  .message-container {
+    width: 100%;
+  }
+
+  .message-container input, textarea {
+    box-sizing: border-box;
+    /* width: 100%; */
   }
 }
