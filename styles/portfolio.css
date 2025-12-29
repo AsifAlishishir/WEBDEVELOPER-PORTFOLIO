@@ -202,6 +202,11 @@ main {
   margin-bottom: 130px;
 }
 
+.resume-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 .resume-container {
   display: flex;
   gap: 30px;
@@ -281,107 +286,118 @@ textarea {
 
 /* FOR MOBILE DEVICES */
 @media screen and (max-width: 576px) {
+  /* NAVBAR STYLES */
+  .nav-title {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px 20px 90px 20px;
+  }
 
-    /* NAVBAR STYLES */
-    .nav-title {
-        flex-direction: column;
-        gap: 30px;
-        margin: 0px 20px 90px 20px;
-    }
+  header {
+    background-image: none, none;
+  }
 
-    header {
-        background-image: none, none;
-    }
+  .nav-title ul {
+    /* flex-direction: column; */
+    gap: 20px;
+  }
 
-    .nav-title ul {
-        /* flex-direction: column; */
-        gap: 20px;
-        
-    }
+  .btn-primary {
+    padding: 10px;
+    font-size: 18px;
+  }
 
-    .btn-primary{
-        padding: 10px;
-        font-size: 18px;
-    }
+  /* BANNER STYLES */
+  .banner {
+    flex-direction: column;
+    margin: 0 10px;
+  }
 
-    /* BANNER STYLES */
-    .banner {
-        flex-direction: column;
-        margin: 0 10px;
-    }
+  .banner-image img {
+    width: 100%;
+  }
 
-    .banner-image img{
-        width: 100%;
-    }
+  .banner-content {
+    text-align: center;
+    margin-bottom: 45px;
+  }
 
-    .banner-content{
-        text-align: center;
-        margin-bottom: 45px;
-    }
+  .banner-content h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
 
-    .banner-content h4{
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
+  .banner-content h1 {
+    font-size: 60px;
+  }
 
-    .banner-content h1{
-        font-size: 60px;
-    }
+  .banner-content p {
+    font-size: 16px;
+  }
 
-    .banner-content p{
-        font-size: 16px;
-    }
+  .btn-secondary {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
 
-    .btn-secondary{
-        padding: 10px;
-        margin-top: 15px;
-        margin-left: 0px;
-    }
+  /* ABOUT SECTION STYLES */
+  .about {
+    padding: 30px 15px 30px 15px;
+    margin: 80px 0px;
+  }
 
-    /* ABOUT SECTION STYLES */
-    .about{
-        padding: 30px 15px 30px 15px;
-        margin: 80px 0px;
-    }
+  .about-content {
+    margin: 0;
+  }
 
-    .about-content{
-        margin: 0;
-    }
+  .about-description br {
+    display: none;
+  }
 
-    .about-description br{
-        display: none;
-    }
+  .about-items {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    gap: 25px;
+  }
 
-    .about-items {
-        flex-direction: column;
-        /* justify-content: flex-start; */
-        gap: 25px;
-    }
+  .about-items .item-title {
+    font-size: 16px;
+  }
+  .about-items .item-description {
+    font-size: 17px;
+  }
 
-    .about-items .item-title{
-        font-size: 16px;
-    }
-    .about-items .item-description{
-        font-size: 17px;
-    }
+  .section-title {
+    font-size: 24px;
+  }
 
-    .section-title{
-        font-size: 24px;
-    }
+  .section-description {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
 
-    .section-description{
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
-    }
+  /* WHAT SECTION STYLES */
+  .what-content {
+    padding: 20px;
+  }
 
-    /* WHAT SECTION STYLES */
-    .what-content{
-        padding: 20px;
-    }
+  .skill-container {
+    flex-direction: column;
+    margin: 0 15px;
+  }
 
-    .skill-container{
-        flex-direction: column;
-        margin: 0 15px;
-    }
+  /* RESUME SECTION STYLES */
+  .resume {
+    margin: 0 20px 80px;
+  }
+
+  .resume-heading {
+    margin-bottom: 40px;
+  }
+
+  .resume-container {
+    flex-direction: column;
+  }
 }
